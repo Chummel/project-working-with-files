@@ -33,8 +33,8 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 
 
 	    # Create folders, 'quizzes' and 'answers'
-os.makedirs('./answers', exist_ok=True)
-os.makedirs('./quizzes', exist_ok=True)
+os.makedirs(os.path.join('./answers'), exist_ok=True)
+os.makedirs(os.path.join('./quizzes'), exist_ok=True)
 
 
 #Generate 5 quiz files
